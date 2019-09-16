@@ -17,7 +17,7 @@ body{
 }
 
 #main-header{
-    width: 65%;
+    background-color: rgb(35,35,35);
     margin: auto;
     overflow: hidden;
     padding-top: 20px;
@@ -25,10 +25,12 @@ body{
 
 .container-header{
     float: left;
+    padding-left: 15%;
 }
 
 .container-navbar{
     float: right;
+    padding-right: 15%;
 }
 
 #main-header h1{
@@ -51,4 +53,13 @@ body{
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
+}
+
+#main-footer{
+    float: bottom;
+    background: #7f8688;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
 }

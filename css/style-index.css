@@ -13,14 +13,13 @@ body{
 .container{
     width: 50%;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 5%;
     overflow: hidden;
     border: 10px red hidden;
-    text-align: center;
 }
 
 #main-header{
-    width: 65%;
+    background-color: rgb(35,35,35);
     margin: auto;
     overflow: hidden;
     padding-top: 20px;
@@ -28,10 +27,27 @@ body{
 
 .container-header{
     float: left;
+    padding-left: 15%;
 }
 
 .container-navbar{
     float: right;
+    padding-right: 15%;
+}
+
+.main-text{
+    width: 40%;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 20%;
+
+}
+
+.main-text h1{
+    color: black;
+    line-height: 1em;
+    font-size: 36px;
+    font-style: italic;
 }
 
 #main-header h1{
@@ -57,8 +73,9 @@ body{
 }
 
 #picture{
-    float: left;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #picture ul{
@@ -68,6 +85,7 @@ body{
 
 #picture li{
     display: inline;
+    padding: 3px;
 }
 
 #picture img{
@@ -76,7 +94,6 @@ body{
 }
 
 #main-text{
-    float: right;
     margin-right: 15%;
     margin-top: 20px;
 }

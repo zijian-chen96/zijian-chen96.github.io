@@ -17,7 +17,7 @@ body{
 }
 
 #main-header{
-    width: 65%;
+    background-color: rgb(35,35,35);
     margin: auto;
     overflow: hidden;
     padding-top: 20px;
@@ -25,10 +25,12 @@ body{
 
 .container-header{
     float: left;
+    padding-left: 15%;
 }
 
 .container-navbar{
     float: right;
+    padding-right: 15%;
 }
 
 #main-header h1{
@@ -51,4 +53,99 @@ body{
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
+}
+
+.header{
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    margin-top: 5%;
+    border: 10px red hidden;
+}
+
+.wrapper1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 2em;
+
+}
+.wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 2em;
+    margin-top: 2em;
+}
+
+.wrapper1 div{
+    background-color: #eee;
+}
+
+.wrapper2 div{
+    background-color: #eee;
+}
+
+.box1 p{
+    margin: auto;
+    width: 60%;
+}
+
+.box2 p{
+    margin: auto;
+    width: 60%;
+}
+
+.box3 p{
+    margin: auto;
+    width: 60%;
+}
+
+.box4 p{
+    margin: auto;
+    width: 60%;
+}
+
+.box5 p{
+    margin: auto;
+    width: 60%;
+}
+
+.box6 p{
+    margin: auto;
+    width: 60%;
+}
+
+.box7 p{
+    margin: auto;
+    width: 60%;
+}
+
+.box8 p{
+    margin: auto;
+    width: 60%;
+}
+
+.wrapper1 img{
+    width: auto;
+}
+
+.wrapper2 img{
+    width: 85%;
+}
+
+#main-footer{
+    float: bottom;
+    background: #7f8688;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
 }
